@@ -7,11 +7,12 @@ A ventilation controller powered by Arduino that compares inside and outside dew
 
 Outside air with a lower dewpoint won't condense if let inside. The ventilation controller works based on this principle. The controller compares the inside and outside dewpoints in order to turn ventilation on or off using a relay.
 
+
 ## Credits
 
-This project is a complete, object-oriented rewrite that was inspired by the [ArDewpoint](https://github.com/mvniemi/arDewpoint) project by Michael Niemi, see his excellent [ArDewpoint tutorial and project description](http://www.instructables.com/id/ArDewpoint-Dew-Point-Based-Ventilation-Controller/) and the according [ArDewpoint sourcecode](https://github.com/mvniemi/arDewpoin) on github.
+This project was inspired by the [ArDewpoint](https://github.com/mvniemi/arDewpoint) project by Michael Niemi, also see his excellent [ArDewpoint tutorial and project description](http://www.instructables.com/id/ArDewpoint-Dew-Point-Based-Ventilation-Controller/) and the according [ArDewpoint sourcecode](https://github.com/mvniemi/arDewpoin) on github. All code in this project has been written freshly from scratch using an object-oriented programming principles.
 
-I found that object-oriented programming principles for Arduino were explained in a very practical and understandable way in this tutorial: https://paulmurraycbr.github.io/ArduinoTheOOWay.html
+One further source of inspiration is this valuable tutorial about object-oriented programming for Arduino https://paulmurraycbr.github.io/ArduinoTheOOWay.html
 
 
 ## Dependencies
