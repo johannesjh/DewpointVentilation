@@ -3,6 +3,13 @@
 A ventilation controller powered by Arduino that compares inside and outside dewpoints in order to control a relay and fan.
 
 
+## Project Status
+
+Prototypical implementation. Not actively maintained.
+
+I sought to refactor and improve the [ArDewpoint](https://github.com/mvniemi/arDewpoint) code using an object-oriented programming style. This worked out nice in theory. When put in practice however, i.e., when running on a physical arduino device, the program crashes every other day, possibly due to memory leaks, but I am not sure. I currently don't have time to further debug, actively maintain or improve this project.
+
+
 ## Working Principle
 
 Outside air with a lower dewpoint won't condense if let inside. The ventilation controller works based on this principle. The controller compares the inside and outside dewpoints in order to turn ventilation on or off using a relay.
